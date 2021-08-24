@@ -1,0 +1,65 @@
+pwd -> absolute path
+ls [show waht's in the current directory]
+cd desktop/ [gets forward into the directory]
+ls -l 
+ls -a
+touch ch01.txt [creating file]
+vi ch01.txt [entering text editor]
+press 'i' to enter the editing mood.
+press 'Escape' to exit.
+shift(hold)+zz or type in :wq [to save & exit the editor]
+cat ch01.txt [reading the file]
+cat -b ch01.txt [reading with line numbers shown]
+wc ch01.txt [it shows ->[ # of lines	# of words	size of file in bytes ]]
+copy(2) -> cp
+rename(2) -> mv
+delete(2) -> rm
+
+mkdir [make directory]
+rmdir [remove directory]
+
+mkdir -p Home/user/desktop/f1/temp [force create directory even if it is not already there]
+
+cd dir[any valid directory]
+cd .. [back] 
+
+remove whole directory -> rm -rf <folderName>
+
+rename directory/file -> mv <old> <new>
+
+
+user -> u
+group -> g
+others -> o
+all -> a
+
+rwx -> read write execute
+
+chmod <specs> <filename>
+chmod u+x,u-w,o+wx,g+w file1.txt
+
+4 2 1
+r w x |integer
+- - - |0
+- - x |1
+- w - |2
+- w x |3
+r - - |4
+r - x |5
+r w - |6
+r w x |7
+
+chown <user> <filename>
+chgrp <group> <filename>
+
+pr -2 -w 50 -o 15 -l 15 -h "Restaurants" food.txt
+where w -> width 
+      o -> offset
+      l -> length
+      h -> header
+
+
+
+
+
+

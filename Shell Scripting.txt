@@ -1,0 +1,60 @@
+-test.sh
+-shebang(#!/bin/sh)
+-chmod +x test.sh [making it executable]
+./test.sh
+or bash test.sh to execute a file
+
+
+
+readonly, v1 [constant]
+unset v1 [v1 = null and removing from memory or variable list]
+
+./test.sh arg1 arg2 arg3 ... argn [n=infinity]
+
+$$ -> PID of current
+$0 -> name of current file
+$n -> ($1...$100)th parameter
+$# -> number of arguments supplied
+$* -> "arg1, arg2"
+$@ -> "arg1" "arg2"
+$! -> PID of last background command
+$? -> |-0 [no]
+      |-1 [done]
+      |-other [ex. exceptioins]
+l
+------------array---------
+NAME[0]="Zara"
+NAME[1]="Qadir"
+NAME[2]="Mahnaz"
+NAME[3]="Ayan"
+NAME[4]="Daisy"
+echo "First Method: ${NAME[*]}"
+echo "Second Method: ${NAME[@]}"
+
+---------opr---------
+== | -eq
+!= | -ne
+<  | -lt
+>  | -gt
+<= | -le
+>= | -ge
+
+for boolean
+|  | -o
+&  | -a
+~  | !
+
+for strings
+=   -> checks if equal
+-z  -> checks if zero
+-n  -> checks if non-zero
+str -> checks if non-empty
+
+gcc -pthread -o Forking Forking.c 
+
+
+
+
+
+
+
